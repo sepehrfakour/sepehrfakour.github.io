@@ -554,16 +554,15 @@ html { font-family: "Oxygen", "Helvetica Neue", Sans-serif, Arial; }
   font-size: 0px;
 }
 #onboarded-step input {
-  max-height: 17px;
   padding: 12px;
   font-size: 14px;
   font-weight: 700;
   line-height: 24px;
   border: 2px solid #363B3E;
   border-radius: 7px 0px 0px 7px;
+  vertical-align: middle;
 }
 #onboarded-step button {
-  max-height: 17px;
   padding: 12px;
   font-size: 14px;
   font-weight: 700;
@@ -572,6 +571,7 @@ html { font-family: "Oxygen", "Helvetica Neue", Sans-serif, Arial; }
   background: #363B3E;
   border: 2px solid #363B3E;
   border-radius: 0px 7px 7px 0px;
+  vertical-align: middle;
 }
 #onboarded-step button:hover {
   background: #464B4E;
