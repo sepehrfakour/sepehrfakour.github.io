@@ -1073,16 +1073,13 @@ html { font-family: "Oxygen", "Helvetica Neue", Sans-serif, Arial; }
 
 @media (max-width: 321px) {
   #wrapper {
-    min-height: 610px;
+    min-height: 600px;
   }
   #top-overlay {
     padding: 30px;
   }
   .landing-wrapper h1 {
     font-size: 24px;
-  }
-  #onboarded-project {
-    top: 420px;
   }
   #bottom {
     min-height: 15px;
@@ -1096,6 +1093,14 @@ html { font-family: "Oxygen", "Helvetica Neue", Sans-serif, Arial; }
   }
   #footer a:first-of-type {
     margin-left: 0px;
+  }
+  #onboarded-project {
+    top: 420px;
+  }
+  #onboarded-step input,
+  #onboarded-step button {
+    font-size: 13px;
+    padding: 8px 10px;
   }
 }
 @media (min-width: 322px) and (max-width: 767px) {
@@ -1108,9 +1113,6 @@ html { font-family: "Oxygen", "Helvetica Neue", Sans-serif, Arial; }
   .landing-wrapper h1 {
     font-size: 24px;
   }
-  #onboarded-project {
-    top: 420px;
-  }
   #bottom {
     min-height: 15px;
   }
@@ -1123,6 +1125,14 @@ html { font-family: "Oxygen", "Helvetica Neue", Sans-serif, Arial; }
   }
   #footer a:first-of-type {
     margin-left: 0px;
+  }
+  #onboarded-project {
+    top: 420px;
+  }
+  #onboarded-step input,
+  #onboarded-step button {
+    font-size: 13px;
+    padding: 8px 10px;
   }
 }
 @media (min-width: 768px) and (max-width: 1080px) {}
