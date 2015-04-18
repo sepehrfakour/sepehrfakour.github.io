@@ -470,7 +470,7 @@ html { font-family: "Oxygen", "Helvetica Neue", Sans-serif, Arial; }
 .landing-wrapper h2 {
   font-size: 24px;
 }
-.landing-wrapper .top {
+#top {
   min-height: 240px;
   min-width: 320px;
   margin: 0px;
@@ -479,6 +479,7 @@ html { font-family: "Oxygen", "Helvetica Neue", Sans-serif, Arial; }
   background-size: cover;
   background-position: center;
 }
+#bottom {}
 .profile-image {
   display: inline-block;
   height: 120px;
