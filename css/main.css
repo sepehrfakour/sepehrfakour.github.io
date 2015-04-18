@@ -927,7 +927,7 @@ html { font-family: "Oxygen", "Helvetica Neue", Sans-serif, Arial; }
   background: radial-gradient(center,ellipse cover,rgba(0,0,0,0.25) 0,rgba(0,0,0,0.6) 100%);
 }
 #bottom {
-  min-height: 100px;
+  min-height: 114px;
   padding: 54px;
   font-size: 22px;
   font-weight: 400;
@@ -1082,7 +1082,7 @@ html { font-family: "Oxygen", "Helvetica Neue", Sans-serif, Arial; }
     font-size: 24px;
   }
   #bottom {
-    min-height: 33px;
+    min-height: 52px;
   }
   #footer-space {
     height: 43px;
@@ -1120,7 +1120,7 @@ html { font-family: "Oxygen", "Helvetica Neue", Sans-serif, Arial; }
     font-size: 24px;
   }
   #bottom {
-    min-height: 15px;
+    min-height: 52px;
   }
   #footer-space {
     height: 43px;
