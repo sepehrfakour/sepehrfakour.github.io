@@ -1065,7 +1065,11 @@ html { font-family: "Oxygen", "Helvetica Neue", Sans-serif, Arial; }
   -ms-transition: all .25s ease-in-out;
   transition: all .25s ease-in-out;
 }
-#onboarded-complete {}
+#onboarded-complete {
+  padding: 30px;
+  font-weight: 700;
+  color: #37B070;
+}
 
 /****************************************************************************/
 /*****************************    Responsive    *****************************/
