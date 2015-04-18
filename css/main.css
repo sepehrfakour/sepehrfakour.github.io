@@ -874,9 +874,15 @@ a {
   font-size: 0px;
 }
 
-/* --- Custom CSS below --- */
+/* --- Custom CSS --- */
 
 html { font-family: "Oxygen", "Helvetica Neue", Sans-serif, Arial; }
+
+#wrapper {
+  position: relative;
+  height: 100%;
+  min-height: 760px;
+}
 
 .landing-wrapper h1 {
   margin: 15px 0px;
@@ -921,6 +927,7 @@ html { font-family: "Oxygen", "Helvetica Neue", Sans-serif, Arial; }
   background: radial-gradient(center,ellipse cover,rgba(0,0,0,0.25) 0,rgba(0,0,0,0.6) 100%);
 }
 #bottom {
+  min-height: 100px;
   padding: 60px;
   font-size: 22px;
   font-weight: 400;
@@ -960,11 +967,55 @@ html { font-family: "Oxygen", "Helvetica Neue", Sans-serif, Arial; }
   transition: all .5s ease-in-out;
 }
 
-/* Onboarded Flow */
+#footer-space {
+  width: 100%;
+  height: 73px;
+  margin: 0px;
+}
+
+#footer {
+  display: block;
+  position: absolute;
+  bottom: 0px;
+  width: 80%;
+  margin: 0px 10%;
+  padding: 30px 0px;
+  font-size: 12px;
+  font-weight: 700;
+  border-top: 1px solid #C9C9C9;
+  text-align: center;
+}
+#footer div {
+  display: inline-block;
+  margin-right: -128px;
+}
+#footer a,
+#footer p {
+  display: inline-block;
+  margin: 0px 8px;
+  color: #363B3E;
+  text-decoration: none;
+}
+#footer a:hover {
+  color: #777;
+}
+#footer p {
+  float: right;
+  width: 128px;
+  margin: 0px;
+  color: #BBB;
+}
+#footer span {
+  color: #BBB;
+}
+
+/* --- Onboarded Flow --- */
+
 #onboarded-project {
   position: relative;
   top: 540px;
   height: 0px;
+  z-index: 10;
 }
 #onboarded-flow {}
 #onboarded-step {
@@ -1021,6 +1072,9 @@ html { font-family: "Oxygen", "Helvetica Neue", Sans-serif, Arial; }
 /****************************************************************************/
 
 @media (max-width: 321px) {
+  #wrapper {
+    min-height: 610px;
+  }
   #top-overlay {
     padding: 30px;
   }
@@ -1029,9 +1083,25 @@ html { font-family: "Oxygen", "Helvetica Neue", Sans-serif, Arial; }
   }
   #onboarded-project {
     top: 420px;
+  }
+  #bottom {
+    min-height: 15px;
+  }
+  #footer {
+    padding: 15px 0px;
+  }
+  #footer div {
+    float: left;
+    margin-right: 0px;
+  }
+  #footer a:first-of-type {
+    margin-left: 0px;
   }
 }
 @media (min-width: 322px) and (max-width: 767px) {
+  #wrapper {
+    min-height: 610px;
+  }
   #top-overlay {
     padding: 30px;
   }
@@ -1040,6 +1110,19 @@ html { font-family: "Oxygen", "Helvetica Neue", Sans-serif, Arial; }
   }
   #onboarded-project {
     top: 420px;
+  }
+  #bottom {
+    min-height: 15px;
+  }
+  #footer {
+    padding: 15px 0px;
+  }
+  #footer div {
+    float: left;
+    margin-right: 0px;
+  }
+  #footer a:first-of-type {
+    margin-left: 0px;
   }
 }
 @media (min-width: 768px) and (max-width: 1080px) {}

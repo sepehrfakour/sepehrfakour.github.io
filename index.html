@@ -10,11 +10,11 @@
     <meta name="author" content="Sepehr Fakour">
     <meta property="og:image" content="https://pbs.twimg.com/profile_images/567812079369740288/2qyuk8Ka_400x400.jpeg">
     <!-- CSS -->
-    <link rel="stylesheet" href="/css/main.css">
+    <link rel="stylesheet" href="./css/main.css">
     <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Oxygen:400,700,300">
     <!-- JS -->
     <script src="http://ajax.googleapis.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
-    <script src="/js/jquery-onboarded-0.0.8-3.min.js"></script>
+    <script src="./js/jquery-onboarded-0.0.8-3.min.js"></script>
     <script>jQuery( function () { Onboarded.load().startFlow(); } );</script>
     <!-- MP -->
     <script type="text/javascript">(function(f,b){if(!b.__SV){var a,e,i,g;window.mixpanel=b;b._i=[];b.init=function(a,e,d){function f(b,h){var a=h.split(".");2==a.length&&(b=b[a[0]],h=a[1]);b[h]=function(){b.push([h].concat(Array.prototype.slice.call(arguments,0)))}}var c=b;"undefined"!==typeof d?c=b[d]=[]:d="mixpanel";c.people=c.people||[];c.toString=function(b){var a="mixpanel";"mixpanel"!==d&&(a+="."+d);b||(a+=" (stub)");return a};c.people.toString=function(){return c.toString(1)+".people (stub)"};i="disable track track_pageview track_links track_forms register register_once alias unregister identify name_tag set_config people.set people.set_once people.increment people.append people.union people.track_charge people.clear_charges people.delete_user".split(" ");
@@ -47,9 +47,28 @@ mixpanel.init("3bb1902f70a2063adc751e52d25580de");</script>
             </div>
             <!-- End Onboarded Flow -->
         </div>
+        <div id="footer-space"></div>
+        <div id="footer">
+            <div>
+                <a id="blog" href="https://www.medium.com/@onboarded" target="_blank">Blog</a>
+                <span> | </span>
+                <a id="contact" href="mailto:hello@sepehrfakour.com" target="_top">Contact</a>
+            </div>
+            <p>&copy; 2015 Sepehr Fakour</p>
+        </div>
     </div>
     <script>
         mixpanel.track("Landing Page");
+    </script>
+    <script>
+        jQuery( function () {
+            $("#blog").on("click", function (e) {
+                mixpanel.track("Blog");
+            })
+            $("#contact").on("click", function (e) {
+                mixpanel.track("Contact");
+            })
+        });
     </script>
 </body>
 </html>
