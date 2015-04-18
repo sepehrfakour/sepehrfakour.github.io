@@ -41,8 +41,10 @@ mixpanel.init("3bb1902f70a2063adc751e52d25580de");</script>
                 <div id="onboarded-flow" data-onboarded-flow="My Awesome New Flow">
                     <div id="onboarded-step" data-step="1. Welcome">
                         <p>Enter your email address to receive alerts about new posts</p>
-                        <input data-name="Email" placeholder="you@example.com" required/>
-                        <button data-name="Submit Email" data-action-complete>Subscribe</button>
+                        <form name="signup">
+                            <input data-name="Email" type="email" placeholder="you@example.com" autofocus required/>
+                            <button data-name="Submit Email" type="submit" data-action-complete>Subscribe</button>
+                        </form>
                     </div>
                     <div id="onboarded-complete" data-complete>
                         You are now subscribed to new posts!
