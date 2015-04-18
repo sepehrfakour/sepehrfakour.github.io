@@ -974,8 +974,8 @@ html { font-family: "Oxygen", "Helvetica Neue", Sans-serif, Arial; }
 #onboarded-step p {
   margin: 0px;
   padding: 15px 30px;
-  font-size: 16px;
-  font-weight: 400;
+  font-size: 15px;
+  font-weight: 700;
 }
 #onboarded-step input {
   margin: 0px;
@@ -1028,10 +1028,20 @@ html { font-family: "Oxygen", "Helvetica Neue", Sans-serif, Arial; }
     font-size: 24px;
   }
   #onboarded-project {
-    top: 480px;
+    top: 420px;
   }
 }
-@media (min-width: 322px) and (max-width: 767px) {}
+@media (min-width: 322px) and (max-width: 767px) {
+  #top-overlay {
+    padding: 30px;
+  }
+  .landing-wrapper h1 {
+    font-size: 24px;
+  }
+  #onboarded-project {
+    top: 420px;
+  }
+}
 @media (min-width: 768px) and (max-width: 1080px) {}
 @media (min-width: 1080px) and (max-width: 1280px) {}
 @media (min-width: 1280px) {}
