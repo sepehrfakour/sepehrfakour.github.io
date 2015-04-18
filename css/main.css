@@ -1024,7 +1024,7 @@ html { font-family: "Oxygen", "Helvetica Neue", Sans-serif, Arial; }
 }
 #onboarded-step p {
   margin: 0px;
-  padding: 15px 30px;
+  padding: 0px 30px 30px;
   font-size: 15px;
   font-weight: 700;
 }
@@ -1082,7 +1082,7 @@ html { font-family: "Oxygen", "Helvetica Neue", Sans-serif, Arial; }
     font-size: 24px;
   }
   #bottom {
-    min-height: 15px;
+    min-height: 1px;
   }
   #footer {
     padding: 15px 0px;
@@ -1096,6 +1096,9 @@ html { font-family: "Oxygen", "Helvetica Neue", Sans-serif, Arial; }
   }
   #onboarded-project {
     top: 420px;
+  }
+  #onboarded-step p {
+    padding: 15px 30px;
   }
   #onboarded-step input,
   #onboarded-step button {
@@ -1128,6 +1131,9 @@ html { font-family: "Oxygen", "Helvetica Neue", Sans-serif, Arial; }
   }
   #onboarded-project {
     top: 420px;
+  }
+  #onboarded-step p {
+    padding: 30px 30px 15px;
   }
   #onboarded-step input,
   #onboarded-step button {
