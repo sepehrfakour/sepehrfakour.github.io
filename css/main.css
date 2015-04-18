@@ -572,8 +572,20 @@ html { font-family: "Oxygen", "Helvetica Neue", Sans-serif, Arial; }
   border: 2px solid #363B3E;
   border-radius: 0px 7px 7px 0px;
   vertical-align: middle;
+  -webkit-transition: all .25s ease-in-out;
+  -moz-transition: all .25s ease-in-out;
+  -o-transition: all .25s ease-in-out;
+  -ms-transition: all .25s ease-in-out;
+  transition: all .25s ease-in-out;
 }
 #onboarded-step button:hover {
   background: #464B4E;
+  border-color: #464B4E;
+  cursor: pointer;
+  -webkit-transition: all .25s ease-in-out;
+  -moz-transition: all .25s ease-in-out;
+  -o-transition: all .25s ease-in-out;
+  -ms-transition: all .25s ease-in-out;
+  transition: all .25s ease-in-out;
 }
 #onboarded-complete {}
