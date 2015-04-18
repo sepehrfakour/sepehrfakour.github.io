@@ -552,14 +552,16 @@ html { font-family: "Oxygen", "Helvetica Neue", Sans-serif, Arial; }
 #onboarded-flow {}
 #onboarded-step {
   font-size: 0px;
+  padding-bottom: 15px;
 }
 #onboarded-step p {
   margin: 0px;
-  padding: 0px 30px 15px;
+  padding: 15px 30px;
   font-size: 16px;
   font-weight: 400;
 }
 #onboarded-step input {
+  margin: 0px;
   padding: 12px;
   font-size: 14px;
   font-weight: 700;
@@ -569,6 +571,7 @@ html { font-family: "Oxygen", "Helvetica Neue", Sans-serif, Arial; }
   vertical-align: middle;
 }
 #onboarded-step button {
+  margin: 0px;
   padding: 12px;
   font-size: 14px;
   font-weight: 700;
