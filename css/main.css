@@ -1073,7 +1073,7 @@ html { font-family: "Oxygen", "Helvetica Neue", Sans-serif, Arial; }
 
 @media (max-width: 321px) {
   #wrapper {
-    min-height: 610px;
+    min-height: 605px;
   }
   #top-overlay {
     padding: 30px;
