@@ -1027,6 +1027,9 @@ html { font-family: "Oxygen", "Helvetica Neue", Sans-serif, Arial; }
   .landing-wrapper h1 {
     font-size: 24px;
   }
+  #onboarded-project {
+    top: 480px;
+  }
 }
 @media (min-width: 322px) and (max-width: 767px) {}
 @media (min-width: 768px) and (max-width: 1080px) {}
