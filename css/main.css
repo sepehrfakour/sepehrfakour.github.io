@@ -544,16 +544,16 @@ html { font-family: "Oxygen", "Helvetica Neue", Sans-serif, Arial; }
 }
 
 /* Onboarded Flow */
-.onboarded-project {
+#onboarded-project {
   position: relative;
   top: 540px;
   height: 0px;
 }
-.onboarded-flow {}
-.onboarded-step {
+#onboarded-flow {}
+#onboarded-step {
   font-size: 0px;
 }
-.onboarded-step input {
+#onboarded-step input {
   max-height: 17px;
   padding: 12px;
   font-size: 14px;
@@ -562,7 +562,7 @@ html { font-family: "Oxygen", "Helvetica Neue", Sans-serif, Arial; }
   border: 2px solid #363B3E;
   border-radius: 7px 0px 0px 7px;
 }
-.onboarded-step button {
+#onboarded-step button {
   max-height: 17px;
   padding: 12px;
   font-size: 14px;
@@ -573,7 +573,7 @@ html { font-family: "Oxygen", "Helvetica Neue", Sans-serif, Arial; }
   border: 2px solid #363B3E;
   border-radius: 0px 7px 7px 0px;
 }
-.onboarded-step button:hover {
+#onboarded-step button:hover {
   background: #464B4E;
 }
-.onboarded-complete {}
+#onboarded-complete {}
