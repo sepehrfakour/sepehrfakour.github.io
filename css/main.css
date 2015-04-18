@@ -481,16 +481,27 @@ html { font-family: "Oxygen", "Helvetica Neue", Sans-serif, Arial; }
 }
 .landing-wrapper h3 {
   font-weight: 400;
+  color: #FFF;
 }
 
 #top {
   min-height: 240px;
   min-width: 320px;
   margin: 0px;
-  padding: 60px;
+  padding: 0px;
   background: url("/imgs/stairway.jpeg");
   background-size: cover;
   background-position: center;
+}
+#top-overlay {
+  margin: 0px;
+  padding: 60px;
+  background: -webkit-gradient(radial,center center,0px,center center,100%,color-stop(0%,rgba(0,0,0,0.1)),color-stop(100%,rgba(0,0,0,0.2)));
+  background: -webkit-radial-gradient(center,ellipse cover,rgba(0,0,0,0.25) 0,rgba(0,0,0,0.6) 100%);
+  background: -moz-radial-gradient(center,ellipse cover,rgba(0,0,0,0.25) 0,rgba(0,0,0,0.6) 100%);
+  background: -o-radial-gradient(center,ellipse cover,rgba(0,0,0,0.25) 0,rgba(0,0,0,0.6) 100%);
+  background: -ms-radial-gradient(center,ellipse cover,rgba(0,0,0,0.25) 0,rgba(0,0,0,0.6) 100%);
+  background: radial-gradient(center,ellipse cover,rgba(0,0,0,0.25) 0,rgba(0,0,0,0.6) 100%);
 }
 #bottom {}
 .profile-image {
