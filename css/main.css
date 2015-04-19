@@ -921,6 +921,7 @@ body {
   height: 20px;
   width: 20px;
   margin: 0px 6px 0px 2px;
+  background:  url("../imgs/onboarded-logo-64-light.png");
   background:  url("../imgs/onboarded-logo-64.png");
   background-size: cover;
   background-position: center;
