@@ -906,7 +906,7 @@ body {
 .landing-wrapper h2 a {
   color: rgb(247, 91, 91);
   text-decoration: none;
-  vertical-align: text-bottom;
+  vertical-align: initial;
 }
 .landing-wrapper h2 a:hover {
   color: rgb(255, 111, 111);
@@ -920,7 +920,7 @@ body {
   display: inline-block;
   height: 20px;
   width: 20px;
-  margin: 0px 4px 0px 2px;
+  margin: 0px 6px 0px 2px;
   background:  url("../imgs/onboarded-logo-64.png");
   background-size: cover;
   background-position: center;
@@ -973,7 +973,7 @@ body {
   font-size: 13px;
   font-weight: 700;
   border: 1px solid;
-  border-radius: 3px;
+  border-radius: 33px;
   overflow: hidden;
   white-space: nowrap;
   text-decoration: none;
