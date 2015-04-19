@@ -1132,8 +1132,8 @@ html { font-family: "Oxygen", "Helvetica Neue", Sans-serif, Arial; }
     font-size: 24px;
   }
   #middle a {
-    max-width: 126px;
-    padding: 8px 14px 7px 10px;
+    max-width: 124px;
+    padding: 8px 16px 7px 10px;
   }
   #bottom {
     min-height: 40px;
