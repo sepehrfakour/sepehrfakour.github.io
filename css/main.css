@@ -926,6 +926,14 @@ body {
   background-position: center;
   vertical-align: bottom;
 }
+#onboarded-logo-mini {
+  float: right;
+  height: 0px;
+  width: 0px;
+  background:  url("../imgs/onboarded-logo-64-light.png");
+  visibility: hidden;
+  opacity: 0;
+}
 .landing-wrapper h3 {
   line-height: 16px;
   font-weight: 400;
