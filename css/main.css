@@ -1123,7 +1123,7 @@ html { font-family: "Oxygen", "Helvetica Neue", Sans-serif, Arial; }
 
 @media (max-width: 321px) {
   #wrapper {
-    min-height: 680px;
+    min-height: 710px;
   }
   #top-overlay {
     padding: 30px;
@@ -1135,7 +1135,7 @@ html { font-family: "Oxygen", "Helvetica Neue", Sans-serif, Arial; }
     max-width: 126px;
   }
   #bottom {
-    min-height: 10px;
+    min-height: 40px;
   }
   #footer-space {
     height: 23px;
@@ -1151,7 +1151,7 @@ html { font-family: "Oxygen", "Helvetica Neue", Sans-serif, Arial; }
     margin-left: 0px;
   }
   #onboarded-project {
-    top: 505px;
+    top: 520px;
   }
   #onboarded-step p {
     padding: 15px 30px;
