@@ -879,7 +879,10 @@ a:hover {
 
 /* --- Custom CSS --- */
 
-html { font-family: "Oxygen", "Helvetica Neue", Sans-serif, Arial; }
+html,
+body {
+  font-family: "Oxygen", "Helvetica Neue", Sans-serif, Arial;
+}
 
 #wrapper {
   position: relative;
@@ -888,24 +891,43 @@ html { font-family: "Oxygen", "Helvetica Neue", Sans-serif, Arial; }
 }
 
 .landing-wrapper h1 {
-  margin: 15px 0px;
+  margin: 12px 0px 18px;
+  line-height: 36px;
   font-size: 36px;
   font-weight: 400;
   color: #FAFAFA;
 }
 .landing-wrapper h2 {
   margin: 15px 0px;
+  line-height: 18px;
   font-size: 18px;
   color: #FAFAFA;
 }
 .landing-wrapper h2 a {
   color: rgb(247, 91, 91);
   text-decoration: none;
+  vertical-align: text-bottom;
 }
 .landing-wrapper h2 a:hover {
   color: rgb(255, 111, 111);
 }
+.landing-wrapper h2 a:hover #onboarded-logo {
+  background:  url("../imgs/onboarded-logo-64-light.png");
+  background-size: cover;
+  background-position: center;
+}
+#onboarded-logo {
+  display: inline-block;
+  height: 20px;
+  width: 20px;
+  margin: 0px 4px 0px 2px;
+  background:  url("../imgs/onboarded-logo-64.png");
+  background-size: cover;
+  background-position: center;
+  vertical-align: bottom;
+}
 .landing-wrapper h3 {
+  line-height: 16px;
   font-weight: 400;
   color: #FFF;
 }
@@ -921,7 +943,7 @@ html { font-family: "Oxygen", "Helvetica Neue", Sans-serif, Arial; }
 }
 #top-overlay {
   margin: 0px;
-  padding: 45px;
+  padding: 44px;
   background: -webkit-gradient(radial,center center,0px,center center,100%,color-stop(0%,rgba(0,0,0,0.1)),color-stop(100%,rgba(0,0,0,0.2)));
   background: -webkit-radial-gradient(center,ellipse cover,rgba(0,0,0,0.25) 0,rgba(0,0,0,0.6) 100%);
   background: -moz-radial-gradient(center,ellipse cover,rgba(0,0,0,0.25) 0,rgba(0,0,0,0.6) 100%);
@@ -947,10 +969,11 @@ html { font-family: "Oxygen", "Helvetica Neue", Sans-serif, Arial; }
 #middle a {
   display: inline-block;
   padding: 8px 12px 7px;
+  line-height: 13px;
   font-size: 13px;
   font-weight: 700;
   border: 1px solid;
-  border-radius: 33px;
+  border-radius: 3px;
   overflow: hidden;
   white-space: nowrap;
   text-decoration: none;
@@ -1026,6 +1049,7 @@ html { font-family: "Oxygen", "Helvetica Neue", Sans-serif, Arial; }
   width: 80%;
   margin: 0px 10%;
   padding: 30px 0px;
+  line-height: 12px;
   font-size: 12px;
   font-weight: 700;
   border-top: 1px solid #C9C9C9;
@@ -1071,6 +1095,7 @@ html { font-family: "Oxygen", "Helvetica Neue", Sans-serif, Arial; }
 #onboarded-step p {
   margin: 0px;
   padding: 0px 30px 30px;
+  line-height: 15px;
   font-size: 15px;
   font-weight: 700;
 }
@@ -1080,8 +1105,8 @@ html { font-family: "Oxygen", "Helvetica Neue", Sans-serif, Arial; }
   font-size: 14px;
   font-weight: 700;
   line-height: 24px;
-  border: 2px solid #363B3E;
-  border-radius: 7px 0px 0px 7px;
+  border: 1px solid #363B3E;
+  border-radius: 3px 0px 0px 3px;
   vertical-align: middle;
 }
 #onboarded-step button {
@@ -1092,8 +1117,8 @@ html { font-family: "Oxygen", "Helvetica Neue", Sans-serif, Arial; }
   line-height: 24px;
   color: #FAFAFA;
   background: #363B3E;
-  border: 2px solid #363B3E;
-  border-radius: 0px 7px 7px 0px;
+  border: 1px solid #363B3E;
+  border-radius: 0px 3px 3px 0px;
   vertical-align: middle;
   -webkit-transition: all .25s ease-in-out;
   -moz-transition: all .25s ease-in-out;
@@ -1126,9 +1151,11 @@ html { font-family: "Oxygen", "Helvetica Neue", Sans-serif, Arial; }
     min-height: 710px;
   }
   #top-overlay {
-    padding: 30px;
+    padding: 29px;
   }
   .landing-wrapper h1 {
+    margin: 13px 0px 17px;
+    line-height: 24px;
     font-size: 24px;
   }
   #middle a {
@@ -1168,9 +1195,11 @@ html { font-family: "Oxygen", "Helvetica Neue", Sans-serif, Arial; }
     min-height: 680px;
   }
   #top-overlay {
-    padding: 30px;
+    padding: 29px;
   }
   .landing-wrapper h1 {
+    margin: 13px 0px 17px;
+    line-height: 24px;
     font-size: 24px;
   }
   #middle a {
